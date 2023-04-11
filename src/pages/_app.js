@@ -5,9 +5,9 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Theme>
-        {/* <Head>
+        <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
-        </Head> */}
+        </Head>
         <Component {...pageProps} />
       </Theme>
     </>
