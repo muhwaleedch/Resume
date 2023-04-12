@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import TextSlider, { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -12,17 +12,7 @@ const Hero = (props) => (
         <SectionTitle main center>
           Welcome To <br />
           My Personal Portfolio
-                  <Typed
-                    strings={[
-                      "Front End Developer",
-                      "Back End Developer",
-                      "Software Engineer"
-                    ]}
-                    typeSpeed={80}
-                    backDelay={1100}
-                    backSpeed={30}
-                    loop
-                  />
+                  <TextSlider/>
         </SectionTitle>
         
         <SectionText>
