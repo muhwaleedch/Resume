@@ -12,7 +12,6 @@ const Hero = (props) => (
         <SectionTitle main center>
           Welcome To <br />
           My Personal Portfolio
-                  <TextSlider/>
         </SectionTitle>
         
         <SectionText>

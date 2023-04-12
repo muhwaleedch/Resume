@@ -1,30 +1,5 @@
 import styled from 'styled-components'
 
-import { useState } from "react";
-import Typed from "react-typed";
-
-function TextSlider() {
-  const [typedStrings] = useState([
-    "Front End Developer",
-    "Back End Developer",
-    "Software Engineer"
-  ]);
-
-  return (
-    <div className="text-slider-container">
-      <Typed
-        strings={typedStrings}
-        typeSpeed={80}
-        backDelay={1100}
-        backSpeed={30}
-        loop
-      />
-    </div>
-  );
-}
-
-export default TextSlider;
-
 
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
