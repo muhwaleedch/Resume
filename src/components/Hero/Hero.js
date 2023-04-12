@@ -4,6 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+
 const Hero = (props) => (
   <>
     <Section row nopadding>
@@ -11,9 +12,6 @@ const Hero = (props) => (
         <SectionTitle main center>
           Welcome To <br />
           My Personal Portfolio
-          <p className="intro-subtitle">
-                <span className="text-slider-items"></span>
-                <strong className="text-slider">
                   <Typed
                     strings={[
                       "Front End Developer",
@@ -25,8 +23,6 @@ const Hero = (props) => (
                     backSpeed={30}
                     loop
                   />
-                </strong>
-              </p>
         </SectionTitle>
         
         <SectionText>
